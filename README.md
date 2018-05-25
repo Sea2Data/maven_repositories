@@ -20,6 +20,7 @@ POM Reference to repos:
 Example dependency:		
 
 <code>
+
 &lt;dependency&gt;
 
 	&lt;groupId&gt;no.imr.sea2data&lt;/groupId&gt;
