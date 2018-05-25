@@ -5,18 +5,22 @@ Copy from .jar and .pom from local .m2-directory after successfull build to appr
 
 
 POM Reference to repos:
-<repository>
-  <id>sea2data_maven_repos</id>
-  <url>https://raw.githubusercontent.com/Sea2Data/maven_repositories/release/</url>
-</repository>
+<code>
+&lt;repository&gt;
+  &lt;id&gt;sea2data_maven_repos&lt;/id&gt;
+  &lt;url&gt;https://raw.githubusercontent.com/Sea2Data/maven_repositories/release/&lt;/url&gt;
+&lt;/repository&gt;
+</code>
 
 Example dependency:		
-<dependency>
-	<groupId>no.imr.sea2data</groupId>
-	<artifactId>Formats</artifactId>
-	<version>1.0.0</version>
-	<scope>test</scope>
-</dependency>
+<code>
+&lt;dependency&gt;
+	&lt;groupId&gt;no.imr.sea2data&lt;/groupId&gt;
+	&lt;artifactId&gt;Formats&lt;/artifactId&gt;
+	&lt;version&gt;1.0.0&lt;/version&gt;
+	&lt;scope&gt;test&lt;/scope&gt;
+&lt;/dependency&gt;
+</code>
 		
 		
 Havent found out yet how to deliver snapshot artifacts, so use release ...
