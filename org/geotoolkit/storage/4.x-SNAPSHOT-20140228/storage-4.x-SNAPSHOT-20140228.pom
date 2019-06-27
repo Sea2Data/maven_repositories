@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- =======================================================================
+        Maven Project Configuration File
+
+        The Geotoolkit Project
+            http://www.geotoolkit.org/
+     ======================================================================= -->
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.geotoolkit</groupId>
+    <artifactId>modules</artifactId>
+    <version>4.x-SNAPSHOT-20140228</version>
+  </parent>
+
+
+  <!-- =========================================================== -->
+  <!--     Module Description                                      -->
+  <!-- =========================================================== -->
+  <artifactId>storage</artifactId>
+  <packaging>pom</packaging>
+  <name>Storage</name>
+
+  <description>
+    Projects group for feature stores services.
+  </description>
+
+
+  <!-- =========================================================== -->
+  <!--     Developers and Contributors                             -->
+  <!-- =========================================================== -->
+  <developers>
+    <developer>
+      <name>Johann Sorel</name>
+      <id>eclesia</id>
+      <email>johann.sorel@geomatys.com</email>
+      <organization>Geomatys</organization>
+      <organizationUrl>http://www.geomatys.fr/</organizationUrl>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Administrator</role>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <name>Cédric Briançon</name>
+      <id>cedricbr</id>
+      <email>cedric.briancon@geomatys.fr</email>
+      <organization>Geomatys</organization>
+      <organizationUrl>http://www.geomatys.fr/</organizationUrl>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+
+
+  <!-- =========================================================== -->
+  <!--     Dependencies to be inherited by all modules.            -->
+  <!-- =========================================================== -->
+  <dependencies>
+    <dependency>
+      <groupId>org.opengis</groupId>
+      <artifactId>geoapi-pending</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.geotoolkit</groupId>
+      <artifactId>geotk-utility-pending</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.geotoolkit</groupId>
+      <artifactId>geotk-metadata</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.geotoolkit</groupId>
+      <artifactId>geotk-referencing</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.opengis</groupId>
+      <artifactId>geoapi-conformance</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+
+  <!-- =========================================================== -->
+  <!--     Modules included in the build                           -->
+  <!-- =========================================================== -->
+  <modules>
+    <module>geotk-feature-store</module>
+    <module>geotk-feature-dbf</module>
+    <module>geotk-feature-csv</module>
+    <module>geotk-feature-gpx</module>
+    <module>geotk-feature-kml</module>
+    <module>geotk-feature-shapefile</module>
+    <module>geotk-feature-om</module>
+    <module>geotk-feature-osm</module>
+    <module>geotk-feature-sensorml</module>
+    <module>geotk-feature-geojson</module>
+    <module>geotk-feature-sql</module>
+    <module>geotk-feature-postgres</module>
+    <module>geotk-feature-mysql</module>
+    <module>geotk-feature-mapinfo</module>
+    <module>geotk-feature-nmea</module>
+    <module>geotk-coverage-bil</module>
+    <module>geotk-coverage-dimap</module>
+    <module>geotk-coverage-geotiff</module>
+    <module>geotk-coverage-imagery</module>
+    <module>geotk-coverage-netcdf</module>
+    <module>geotk-coverage-postgresql</module>
+    <module>geotk-coverage-store</module>
+    <module>geotk-coverage-sql</module>
+    <module>geotk-coverage-wkb</module>
+  </modules>
+
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.postgis</groupId>
+  <artifactId>postgis-jdbc</artifactId>
+  <version>1.5.1</version>
+  <packaging>jar</packaging>
+  <name>Postgis JDBC Driver</name>
+  <url>http://www.postgis.org</url>
+  <description>PostGIS adds support for geographic objects to the PostgreSQL object-relational database.</description>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <url>http://trac.osgeo.org/postgis/browser/tags/1.5.1</url>
+    <connection>scm:svn:http://svn.osgeo.org/postgis/tags/1.5.1/</connection>
+    <developerConnection>scm:svn:http://svn.osgeo.org/postgis/tags/1.5.1/</developerConnection>
+  </scm>
+</project>

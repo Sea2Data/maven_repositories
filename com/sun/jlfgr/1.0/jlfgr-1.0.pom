@@ -1,0 +1,7 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sun</groupId>
+  <artifactId>jlfgr</artifactId>
+  <name>Java Look and Feel repository</name>
+  <version>1.0</version>
+</project>
